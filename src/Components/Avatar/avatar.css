@@ -1,0 +1,13 @@
+@media only screen and (max-width: 450px) {
+    .avatar{
+        width: 70px;
+        height: 70px;
+        border-radius: 8px;
+        background-image: url("avatar.png");
+        background-position: var(--center);
+        background-size: cover;
+        box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+        animation: float 6s ease-in-out infinite;
+        border: solid 1px rgba(0,0,0,.02)
+    }
+}

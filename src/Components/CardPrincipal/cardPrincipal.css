@@ -1,0 +1,19 @@
+@media only screen and (max-width: 450px) {    
+    .cardPrincipal{
+        width: 85%;
+        height: 200px;
+        background-image: linear-gradient(to right bottom, #cdcd85, #bad582, #9ede87, #75e694, #12eeab);
+        box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+        border-radius: 8px;
+        display: var(--flex);
+        justify-content: var(--center);
+    }
+    .cardPrincipal .infos{
+        width: 80%;
+        height: 22%;
+        display: var(--flex);
+        justify-content: var(--flex-end);
+        align-items: var(--center);
+        color: #fff;
+    }
+}

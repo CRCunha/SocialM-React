@@ -1,0 +1,51 @@
+@media only screen and (max-width: 450px) {
+    header{
+        width: 100%;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--center);
+        flex-wrap: var(--wrap);
+    }
+    header .avatarContainer{
+        width: 100%;
+        height: 150px;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--center);
+    }
+    header .avatarContainer .content{
+        width: 85%;
+        height: 100%;
+        display: var(--flex);
+        justify-content: var(--flex-end);
+        align-items: var(--center);
+    }
+    header .infoTexts{
+        width: 100%;
+        height: 150px;
+        display: var(--flex);
+        justify-content: var(--center);
+        align-items: var(--center);
+    }
+    header .infoTexts .container{
+        width: 85%;
+        height: 100%;
+        /* background-color: aqua; */
+    }
+    header .infoTexts .container .title{
+        width: 100%;
+        height: 40%;
+        display: var(--flex);
+        align-items: var(--center);
+        font-size: 22pt;
+        color: rgb(144, 144, 144);
+    }
+    header .infoTexts .container .sub{
+        width: 100%;
+        height: 40%;
+        display: var(--flex);
+        align-items: var(--center);
+        font-size: 12pt;
+        color: rgb(144, 144, 144);
+    }
+}
