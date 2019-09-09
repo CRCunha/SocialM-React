@@ -17,7 +17,7 @@
     display: var(--flex);
     justify-content: var(--center);
     align-items: var(--center);
-    flex-wrap: var(--nowrap);
+    flex-wrap: var(--wrap);
 }
 
 .chatBtn .container .linha{
